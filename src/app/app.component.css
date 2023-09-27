@@ -1,0 +1,285 @@
+.home-indicator1 {
+    position: absolute;
+    bottom: 8px;
+    left: calc(50% - 66.5px);
+    border-radius: var(--br-81xl);
+    background-color: var(--label-color-light-primary);
+    width: 134px;
+    height: 5px;
+    display: none;
+  }
+  .homeindicator {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 131px);
+    width: 405px;
+    height: 34px;
+  }
+  .motor-de-bsqueda,
+  .resultados {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .motor-de-bsqueda {
+    top: 58px;
+    left: 508px;
+    font-size: var(--material-theme-title-medium-size);
+    line-height: 24px;
+    width: 186px;
+  }
+  .resultados {
+    top: 197px;
+    left: 273px;
+    line-height: 20px;
+    width: 184px;
+    height: 28px;
+  }
+  .ttulo {
+    position: relative;
+    line-height: 20px;
+    display: none;
+  }
+  .buscar-libro,
+  .search-icon {
+    position: relative;
+    opacity: 0.5;
+  }
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .buscar-libro {
+    border: 0;
+    font-family: var(--material-theme-title-small);
+    font-size: var(--material-theme-title-small-size);
+    background-color: transparent;
+    line-height: 20px;
+    color: var(--shark-950);
+    text-align: left;
+    display: inline-block;
+    width: 712px;
+    flex-shrink: 0;
+  }
+  .campo,
+  .campo-grande {
+    width: 783px;
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .campo {
+    border-radius: var(--br-5xs);
+    background-color: var(--shark-50);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-base);
+    box-sizing: border-box;
+  }
+  .campo-grande {
+    position: absolute;
+    top: 118px;
+    left: calc(50% - 509px);
+    height: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .botn1 {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .botn-secundario {
+    left: 0;
+    background-color: var(--shark-50);
+  }
+  .botn-secundario,
+  .botn-secundario1,
+  .botn-secundario2 {
+    position: absolute;
+    top: 0;
+    border-radius: var(--br-5xs);
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .botn-secundario1 {
+    left: 61.25px;
+    background-color: var(--shark-950);
+    color: var(--white);
+  }
+  .botn-secundario2 {
+    left: 122.12px;
+    background-color: var(--shark-50);
+  }
+  .botn-secundario-parent {
+    position: absolute;
+    top: 0;
+    left: 357.88px;
+    width: 163.12px;
+    height: 32px;
+  }
+  .chevron-left-icon,
+  .chevron-left-icon1 {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 24.91px;
+    height: 24px;
+  }
+  .chevron-left-icon1 {
+    left: 651.4px;
+  }
+  .de-33,
+  .group-parent {
+    position: absolute;
+    text-align: center;
+  }
+  .group-parent {
+    top: 624px;
+    left: 210px;
+    width: 676.32px;
+    height: 32px;
+  }
+  .de-33 {
+    top: 714px;
+    left: calc(50% - 25px);
+    font-size: var(--material-theme-title-medium-size);
+    line-height: 24px;
+    display: flex;
+    color: var(--label-color-light-primary);
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    box-shadow: 0-2px 6px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.08);
+    width: 701.77px;
+    height: 95.61px;
+  }
+  .titulo-libro {
+    position: absolute;
+    top: 18.28px;
+    left: 251.26px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 148.98px;
+    height: 28.12px;
+  }
+  .group-item {
+    position: absolute;
+    top: 19.32px;
+    left: 25.95px;
+    border-radius: 50%;
+    background-color: var(--spring-green-50);
+    width: 58.13px;
+    height: 57px;
+  }
+  .autor {
+    position: absolute;
+    top: 50.62px;
+    left: 251.26px;
+    font-size: var(--material-theme-label-medium-size);
+    line-height: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 92.13px;
+    height: 22.5px;
+    opacity: 0.5;
+  }
+  .home-icon {
+    position: absolute;
+    top: 33.74px;
+    left: 45.09px;
+    width: 39.21px;
+    height: 28.12px;
+  }
+  .ellipse-div,
+  .rectangle-parent {
+    position: absolute;
+    top: 256.68px;
+    left: 250.23px;
+    width: 701.77px;
+    height: 95.61px;
+  }
+  .ellipse-div {
+    top: 19.47px;
+    left: 25.95px;
+    border-radius: 50%;
+    background-color: var(--spring-green-50);
+    width: 58.13px;
+    height: 56px;
+  }
+  .group-child1,
+  .rectangle-group {
+    position: absolute;
+    top: 363.53px;
+    left: 250.23px;
+    width: 701.77px;
+    height: 95.61px;
+  }
+  .group-child1 {
+    top: 19.61px;
+    left: 25.95px;
+    border-radius: 50%;
+    background-color: var(--spring-green-50);
+    width: 58.13px;
+    height: 56px;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 470.39px;
+    left: 250.23px;
+    width: 701.77px;
+    height: 95.61px;
+  }
+  .buscar {
+    position: relative;
+    font-size: var(--material-theme-title-small-size);
+    line-height: 20px;
+    font-family: var(--material-theme-title-small);
+    color: var(--white);
+    text-align: center;
+  }
+  .botn-secundario3 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base);
+    background-color: var(--spring-green-500);
+    position: absolute;
+    top: 118px;
+    left: 962px;
+    border-radius: var(--br-5xs);
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .motor-bsqueda {
+    position: relative;
+    background-color: var(--white);
+    width: 100%;
+    height: 776px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--material-theme-title-small-size);
+    color: var(--shark-950);
+    font-family: var(--material-theme-title-small);
+  }
+  
